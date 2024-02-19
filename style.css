@@ -3,6 +3,12 @@ padding: 0;
 box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
 }
+/* Styles pour les écrans plus petits (par exemple, les téléphones) */
+@media screen and (max-width: 768px) {
+  /* Réduisez la taille de la police pour l'en-tête */
+  h1 {
+    font-size: 1.5rem;
+  }
 body{
     color: #fff;
     background: #09001d;
